@@ -18,8 +18,8 @@ class CreateGraphiccardTable extends Migration
             $table->string('gc_name');
             $table->string('constructor');
             $table->integer('price');
-            $table->string('chipsetgc_id');
-            $table->string('length');
+            $table->string('chipset');
+            $table->string('size');
             $table->string('gcp');
             $table->boolean('6/8pin');
             $table->integer('dx11f');
